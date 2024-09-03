@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\AnimationController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/user', function () {
-    return 123;
+Route::middleware(['api.sign.check'])->group(function () {
+    Route::prefix('animation')->group(function () {
+        Route::get('/preview', [AnimationController::class, 'preview']);
+    });
 });
