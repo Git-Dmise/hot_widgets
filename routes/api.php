@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\AnimationController;
+use App\Http\Controllers\Api\ServerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,9 +14,10 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
+Route::get('get_timestamp', [ServerController::class, 'index']);
 
 Route::middleware(['api.sign.check'])->group(function () {
     Route::prefix('animation')->group(function () {
-        Route::get('/preview', [AnimationController::class, 'preview']);
+        Route::get('index', [AnimationController::class, 'index']);
     });
 });

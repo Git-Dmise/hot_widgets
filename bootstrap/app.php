@@ -43,11 +43,11 @@ return Application::configure(basePath: dirname(__DIR__))
             ], 404);
         });
 
-        $exceptions->renderable(function (Throwable $exception, Request $request) {
+        $exceptions->renderable(function (Throwable $exception) {
             return response()->json([
-                'message' => $request->header('X-Client-Env') === 'testing'
-                    ? $exception->getMessage()
-                    : __('api.throttle'),
+                'message' => app()->isProduction()
+                    ? 'There are too many visitors, please try again later.'
+                    : $exception->getMessage(),
             ], 503);
         });
     })
