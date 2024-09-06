@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('get_timestamp', [ServerController::class, 'index']);
 
 Route::middleware(['api.sign.check'])->group(function () {
+    Route::get('version', [VersionConfigController::class, 'index']); // web端支付配置
+
     Route::prefix('animation')->group(function () {
         Route::get('index', [AnimationController::class, 'index']);
     });
