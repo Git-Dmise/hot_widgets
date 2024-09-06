@@ -3,52 +3,36 @@
 namespace App\Http\Controllers\Api;
 
 use Illuminate\Http\JsonResponse;
-use Illuminate\Support\Facades\File;
 
 class AnimationController extends Controller
 {
+    public function resources(): JsonResponse
+    {
+        return $this->success([env('DOMAIN_NAME') . 'zip/islands/animation.zip']);
+    }
+
     public function index(): JsonResponse
     {
-//        $domain_name = env('DOMAIN_NAME');
-//
-//        $response_data = [];
-//
-//        $animation_directory = File::directories(public_path('/images/islands/animation/'));
-//        foreach ($animation_directory as $item => $value) {
-//            $item++;
-//
-//            $large = [];
-//            $large_path = $value . '/large/';
-//            $large_files = File::files($large_path);
-//            foreach ($large_files as $file) {
-//                $large[] = $domain_name . preg_replace('/.*public\//', '', $large_path) . basename($file);
-//            }
-//
-//            $thumb = [];
-//            $thumb_path = $value . '/thumb/';
-//            $thumb_files = File::files($thumb_path);
-//            foreach ($thumb_files as $file) {
-//                $thumb[] = $domain_name . preg_replace('/.*public\//', '', $thumb_path) . basename($file);
-//            }
-//
-//            $response_data[] = [
-//                'id' => $item,
-//                'is_vip' => !($item === 1 or $item === 2),
-//                'large' => $large,
-//                'thumb' => $thumb,
-//            ];
-//        }
+        $response_data = [];
 
-        $response_data = [
-            [
-                'id' => 1,
-                'is_vip' => true,
-                'large' => [
-                    ''
-                ],
+        for ($i = 1; $i <= 9; $i++) {
+            $large = [];
+            $thumb = [];
+
+            for ($j = 1; $j <= 10; $j++) {
+                $large[] = '00' . $i . '_00' . $j . '_large.png';
+            }
+
+            $thumb['left'] = '00' . $i . '_001_thumb_left.png';
+            $thumb['right'] = '00' . $i . '_001_thumb_right.png';
+
+            $response_data[] = [
+                'id' => $i,
+                'is_vip' => $i !== 1,
+                'large' => $large,
                 'thumb' => $thumb,
-            ],
-        ];
+            ];
+        }
 
         return $this->success($response_data);
     }

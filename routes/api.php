@@ -20,6 +20,7 @@ Route::middleware(['api.sign.check'])->group(function () {
     Route::get('version', [VersionConfigController::class, 'index']); // web端支付配置
 
     Route::prefix('animation')->group(function () {
+        Route::get('resources', [AnimationController::class, 'resources']);
         Route::get('index', [AnimationController::class, 'index']);
     });
 
