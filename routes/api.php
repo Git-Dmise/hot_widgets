@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\Api\AnimationController;
-use App\Http\Controllers\Api\ServerController;
+namespace App\Http\Controllers\Api;
+
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,5 +19,13 @@ Route::get('get_timestamp', [ServerController::class, 'index']);
 Route::middleware(['api.sign.check'])->group(function () {
     Route::prefix('animation')->group(function () {
         Route::get('index', [AnimationController::class, 'index']);
+    });
+
+    Route::prefix('barrage')->group(function () {
+        Route::get('index', [BarrageController::class, 'index']);
+    });
+
+    Route::prefix('start')->group(function () {
+        Route::get('index', [StartController::class, 'index']);
     });
 });

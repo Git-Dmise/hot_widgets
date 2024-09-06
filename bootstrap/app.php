@@ -2,11 +2,11 @@
 
 use App\Exceptions\ApiException;
 use App\Http\Middleware\ApiSignCheck;
+use App\Http\Middleware\SetLocale;
 use Illuminate\Auth\AuthenticationException;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
-use Illuminate\Http\Request;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 
 return Application::configure(basePath: dirname(__DIR__))
@@ -17,6 +17,9 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
+        $middleware->append([
+            SetLocale::class
+        ]);
         $middleware->alias([
             'api.sign.check' => ApiSignCheck::class
         ]);
