@@ -28,21 +28,33 @@ return Application::configure(basePath: dirname(__DIR__))
         $exceptions->renderable(function (AuthenticationException $exception) {
             return response()->json([
                 'message' => $exception->getMessage(),
-                'code' => 401
+                'statusCode' => 401,
+                'success' => false,
             ], 401);
         });
 
         $exceptions->renderable(function (ApiException $exception) {
             return response()->json([
                 'message' => $exception->getMessage(),
-                'code' => $exception->getApiCode(),
+                'statusCode' => $exception->getApiCode(),
+                'success' => false,
             ], 422);
         });
 
-        $exceptions->renderable(function (NotFoundHttpException $exception) {
+        $exceptions->renderable(function (ApiException $exception) {
             return response()->json([
                 'message' => $exception->getMessage(),
-                'code' => 404,
+                'statusCode' => $exception->getApiCode(),
+                'success' => false,
+            ], 427);
+        });
+
+        $exceptions->renderable(function (NotFoundHttpException $exception) {
+            \Illuminate\Support\Facades\Log::info(request()->path());
+            return response()->json([
+                'message' => $exception->getMessage(),
+                'statusCode' => 404,
+                'success' => false,
             ], 404);
         });
 

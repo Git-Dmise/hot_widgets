@@ -14,10 +14,11 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::get('get_timestamp', [ServerController::class, 'index']);
+Route::get('init', [ServerController::class, 'index']);
+Route::get('version/force-update', [VersionConfigController::class, 'force_update']); // 强制更新检测
 
 Route::middleware(['api.sign.check'])->group(function () {
-    Route::get('version', [VersionConfigController::class, 'index']); // web端支付配置
+    Route::get('version/config', [VersionConfigController::class, 'config']); // web端支付配置
 
     Route::prefix('animation')->group(function () {
         Route::get('resources', [AnimationController::class, 'resources']); // 动画岛图片资源

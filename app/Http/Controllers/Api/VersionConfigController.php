@@ -6,22 +6,25 @@ use Illuminate\Http\JsonResponse;
 
 class VersionConfigController extends Controller
 {
-    public function index(): JsonResponse
+    public function force_update(): JsonResponse
     {
-        $latest_version = '1.0.0';
+        $latest_version = '1.0.1';
         $minimum_version = '1.0.0';
         $update_details = 'xxx';
+        $update_url = 'xxx';
+        $update_md5 = 'xxx';
 
-        if (version_compare($this->request->header('X-Client-Version'), $minimum_version, '<')) {
-            $version_status = 1;
-        }
-        elseif (version_compare($this->request->header('X-Client-Version'), $latest_version, '<')) {
-            $version_status = 0;
-        }
-        else {
-            $version_status = -1;
-        }
+        return $this->success([
+            'forceUpdate' => version_compare($this->request->header('X-Client-Version'), $minimum_version, '<'),
+            'version' => $latest_version,
+            'updateContent' => $update_details,
+            'updateUrl' => $update_url,
+            'updateMd5' => $update_md5,
+        ]);
+    }
 
+    public function config(): JsonResponse
+    {
         $response_data = [
             'link' => [
                 'teaching' => 'xxx',
@@ -31,12 +34,6 @@ class VersionConfigController extends Controller
             'apple_product_id' => [
                 'week' => '1',
                 'quarterly' => '2',
-            ],
-            'version' => [
-                'latest_version' => $latest_version,
-                'minimum_version' => $minimum_version,
-                'version_status' => $version_status,
-                'update_details' => $update_details
             ],
         ];
 

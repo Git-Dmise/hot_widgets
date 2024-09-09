@@ -8,6 +8,8 @@ class ServerController extends Controller
 {
     public function index(): JsonResponse
     {
-        return $this->success((int)(microtime(true) * 1000));
+        return $this->success([
+            'timestamp' => (int)(microtime(true) * 1000)
+        ]);
     }
 }

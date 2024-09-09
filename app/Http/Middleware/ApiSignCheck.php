@@ -7,6 +7,7 @@
 namespace App\Http\Middleware;
 
 use App\Exceptions\ApiException;
+use App\Exceptions\SignCheckException;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -51,17 +52,17 @@ class ApiSignCheck
             . "\n"
             . $request->method()
             . "\n"
-            . '/' . $request->path() . (!empty($request->getQueryString()) ? "?{$request->getQueryString()}" : '')
+            . '/' . $request->path()
+            . "\n"
+            . $request->getQueryString()
             . "\n"
             . $client_timestamp
             . "\n"
             . $client_request_uuid
-            . "\n"
-            . $request->getContent()
             . "\n";
 
         if (md5($sign_data) !== $client_sign) {
-            throw new ApiException(0, 'Too many request attempts. Please try again in -1 seconds.');
+            throw new SignCheckException(0, $sign_data);
         }
     }
 }
