@@ -50,7 +50,6 @@ return Application::configure(basePath: dirname(__DIR__))
         });
 
         $exceptions->renderable(function (NotFoundHttpException $exception) {
-            \Illuminate\Support\Facades\Log::info(request()->path());
             return response()->json([
                 'message' => $exception->getMessage(),
                 'statusCode' => 404,
