@@ -14,14 +14,17 @@ class AnimationController extends Controller
             $large = [];
 
             for ($j = 1; $j <= 10; $j++) {
-                $large[] = 'animation/' . $i . ($i === 9 ? '/large_2/' : '/large/') . $j . '.png';
+                $large[] = 'animation/' . $i . '/large/' . $j . '.png';
             }
 
             $response_data[] = [
                 'id' => $i,
                 'is_vip' => $i !== 1,
+                'large_duration' => $i === 9 ? 2 : 1,
                 'large' => $large,
+                'left_duration' => 1,
                 'left' => ['animation/' . $i . '/left/' . $i . '.png'],
+                'right_duration' => 1,
                 'right' => ['animation/' . $i . '/right/' . $i . '.png'],
             ];
         }
