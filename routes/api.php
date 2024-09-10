@@ -21,7 +21,6 @@ Route::middleware(['api.sign.check'])->group(function () {
     Route::get('version/config', [VersionConfigController::class, 'config']); // web端支付配置
 
     Route::prefix('animation')->group(function () {
-        Route::get('resources', [AnimationController::class, 'resources']); // 动画岛图片资源
         Route::get('index', [AnimationController::class, 'index']); // 动画岛列表
     });
 
