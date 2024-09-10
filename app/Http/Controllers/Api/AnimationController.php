@@ -12,7 +12,6 @@ class AnimationController extends Controller
 
         for ($i = 1; $i <= 9; $i++) {
             $large = [];
-            $thumb = [];
 
             for ($j = 1; $j <= 10; $j++) {
                 $large[] = '00' . $i . '/large/00' . $i . '_00' . $j . '_large.png';
