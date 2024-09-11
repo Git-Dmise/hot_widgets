@@ -6,7 +6,7 @@ return [
         'app_name' => 'WeChat',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/wechat.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wechat',
         'launchType' => 'wechat',
     ],
     [
@@ -14,7 +14,7 @@ return [
         'app_name' => 'Weibo',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/weibo.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'sinaweibo',
         'launchType' => 'weibo',
     ],
     [
@@ -22,7 +22,7 @@ return [
         'app_name' => 'QQ',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/qq.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'mqq',
         'launchType' => 'qq',
     ],
     [
@@ -30,7 +30,7 @@ return [
         'app_name' => 'Taobao',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/taobao.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'taobao',
         'launchType' => 'taobao',
     ],
     [
@@ -38,7 +38,7 @@ return [
         'app_name' => 'Xiaohongshu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/xiaohongshu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'xhsdiscover',
         'launchType' => 'xiaohongshu',
     ],
     [
@@ -46,7 +46,7 @@ return [
         'app_name' => 'Tencent Video',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/tencent_video.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'tenvideo',
         'launchType' => 'tencent_video',
     ],
     [
@@ -54,7 +54,7 @@ return [
         'app_name' => 'Tik Tok',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/tik_tok.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'snssdk1128',
         'launchType' => 'tik_tok',
     ],
     [
@@ -62,7 +62,7 @@ return [
         'app_name' => 'Bilibili',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/bilibili.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'bilibili',
         'launchType' => 'bilibili',
     ],
     [
@@ -70,7 +70,7 @@ return [
         'app_name' => 'Meituan',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/meituan.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'imeituan',
         'launchType' => 'meituan',
     ],
     [
@@ -78,7 +78,7 @@ return [
         'app_name' => 'Youku Video',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/youku_video.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'youku',
         'launchType' => 'youku_video',
     ],
     [
@@ -86,7 +86,7 @@ return [
         'app_name' => 'iQiyi',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/iqiyi.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'qiyi-iphone',
         'launchType' => 'iqiyi',
     ],
     [
@@ -94,7 +94,7 @@ return [
         'app_name' => 'Zhihu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/zhihu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'zhihu',
         'launchType' => 'zhihu',
     ],
     [
@@ -102,7 +102,7 @@ return [
         'app_name' => 'NetEase Cloud Music',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/netease_cloud_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'orpheuswidget',
         'launchType' => 'netease_cloud_music',
     ],
     [
@@ -110,7 +110,7 @@ return [
         'app_name' => 'QQ Music',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/qq_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'qqmusic',
         'launchType' => 'qq_music',
     ],
     [
@@ -118,7 +118,7 @@ return [
         'app_name' => 'Alipay',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/alipay.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'alipay',
         'launchType' => 'alipay',
     ],
     [
@@ -126,7 +126,7 @@ return [
         'app_name' => 'Meituan Takeaway',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/meituan_takeaway.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'meituanwaimai',
         'launchType' => 'meituan_takeaway',
     ],
     [
@@ -134,7 +134,7 @@ return [
         'app_name' => 'Dianping',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/dianping.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'dianping',
         'launchType' => 'dianping',
     ],
     [
@@ -142,7 +142,7 @@ return [
         'app_name' => 'JD.com',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/jd.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'openapp.jdmobile',
         'launchType' => 'jd',
     ],
     [
@@ -150,7 +150,7 @@ return [
         'app_name' => 'Pinduoduo',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/pinduoduo.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'pinduoduo',
         'launchType' => 'pinduoduo',
     ],
     [
@@ -158,7 +158,7 @@ return [
         'app_name' => 'Dingding',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/dingding.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'dingtalk',
         'launchType' => 'dingding',
     ],
     [
@@ -166,7 +166,7 @@ return [
         'app_name' => 'Feishu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/feishu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'feishu',
         'launchType' => 'feishu',
     ],
     [
@@ -174,7 +174,7 @@ return [
         'app_name' => 'WeChat for Business',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/wechat_for_business.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wxwork',
         'launchType' => 'wechat_for_business',
     ],
     [
@@ -214,7 +214,7 @@ return [
         'app_name' => 'AutoNavi Map',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/autonavi_map.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'iosamap',
         'launchType' => 'autonavi_map',
     ],
     [
@@ -222,7 +222,7 @@ return [
         'app_name' => 'Jianying',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/jianying.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'videocut',
         'launchType' => 'jianying',
     ],
     [
@@ -230,7 +230,7 @@ return [
         'app_name' => 'Ele.me',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/ele_me.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'eleme',
         'launchType' => 'ele_me',
     ],
     [
@@ -262,7 +262,7 @@ return [
         'app_name' => 'UC Browser',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/uc_browser.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'ucbrowser',
         'launchType' => 'uc_browser',
     ],
     [
@@ -294,7 +294,7 @@ return [
         'app_name' => 'Meitu Xiuxiu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/meitu_xiuxiu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'mtxx',
         'launchType' => 'meitu_xiuxiu',
     ],
     [
@@ -302,7 +302,7 @@ return [
         'app_name' => 'Baidu Map',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/baidu_map.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'baidumap',
         'launchType' => 'baidu_map',
     ],
     [
@@ -310,7 +310,7 @@ return [
         'app_name' => 'Keep',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/keep.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'keep',
         'launchType' => 'keep',
     ],
     [
@@ -318,7 +318,7 @@ return [
         'app_name' => 'Didi Travel',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/didi_travel.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'diditaxi',
         'launchType' => 'didi_travel',
     ],
     [
@@ -326,7 +326,7 @@ return [
         'app_name' => 'Kugou Music',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/kugou_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'kugouURL',
         'launchType' => 'kugou_music',
     ],
     [
@@ -334,7 +334,7 @@ return [
         'app_name' => 'Mango TV',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/mango_tv.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'imgotv',
         'launchType' => 'mango_tv',
     ],
     [
@@ -342,7 +342,7 @@ return [
         'app_name' => 'Happy Match',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/happy_match.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'HappyAnimal3',
         'launchType' => 'happy_match',
     ],
     [
@@ -366,7 +366,7 @@ return [
         'app_name' => 'Google Chrome',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/google_chrome.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'googlechrome',
         'launchType' => 'google_chrome',
     ],
     [
