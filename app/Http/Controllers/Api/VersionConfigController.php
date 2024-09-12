@@ -17,7 +17,7 @@ class VersionConfigController extends Controller
         $update_md5 = 'xxx';
 
         return $this->success([
-            'forceUpdate' => version_compare($this->request->header('X-Client-Version'), $minimum_version, '<'),
+            'forceUpdate' => (int)version_compare($this->request->header('X-Client-Version'), $minimum_version, '<'),
             'version' => $latest_version,
             'updateContent' => $update_details,
             'updateUrl' => $update_url,
