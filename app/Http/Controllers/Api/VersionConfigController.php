@@ -10,8 +10,8 @@ class VersionConfigController extends Controller
 {
     public function force_update(): JsonResponse
     {
-        $latest_version = '1.0.1';
-        $minimum_version = '1.0.1';
+        $latest_version = '1.0.0';
+        $minimum_version = '1.0.0';
         $update_details = 'xxx';
         $update_url = 'xxx';
         $update_md5 = 'xxx';

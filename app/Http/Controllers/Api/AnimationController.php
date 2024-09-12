@@ -23,9 +23,9 @@ class AnimationController extends Controller
                 'large_duration' => $i === 9 ? 2 : 1,
                 'large' => $large,
                 'left_duration' => 1,
-                'left' => ['animation/' . $i . '/left/' . $i . '.png'],
+                'left' => ['animation/' . $i . '/left/1.png'],
                 'right_duration' => 1,
-                'right' => ['animation/' . $i . '/right/' . $i . '.png'],
+                'right' => ['animation/' . $i . '/right/1.png'],
             ];
         }
 
