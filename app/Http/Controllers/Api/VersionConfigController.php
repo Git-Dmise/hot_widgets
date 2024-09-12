@@ -11,13 +11,19 @@ class VersionConfigController extends Controller
     public function force_update(): JsonResponse
     {
         $latest_version = '1.0.1';
-        $minimum_version = '1.0.0';
+        $minimum_version = '1.0.1';
         $update_details = 'xxx';
         $update_url = 'xxx';
         $update_md5 = 'xxx';
+        $is_flashback = false;
+
+        $versionStatus = (int)version_compare($this->request->header('X-Client-Version'), $minimum_version, '<');
+        if ($versionStatus and $is_flashback) {
+            $versionStatus = 2;
+        }
 
         return $this->success([
-            'forceUpdate' => (int)version_compare($this->request->header('X-Client-Version'), $minimum_version, '<'),
+            'versionStatus' => $versionStatus,
             'version' => $latest_version,
             'updateContent' => $update_details,
             'updateUrl' => $update_url,
