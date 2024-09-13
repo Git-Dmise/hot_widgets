@@ -41,6 +41,7 @@ class VersionConfigController extends Controller
         $response_data['ipInfo'] = [
             'inChina' => app(IpService::class)->isInChina($this->request->ip()),
             'starAccel' => app(IpService::class)->ipInChinaNoCity($this->request->ip(), ['北京市', '上海市']),
+            'area' => app(IpService::class)->getArea($this->request->ip()),
         ];
 
         return $this->success($response_data);

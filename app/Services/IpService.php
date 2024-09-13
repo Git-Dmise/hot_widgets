@@ -30,6 +30,26 @@ class IpService extends Service
     /**
      * @noinspection PhpUnused
      */
+    public function getArea(string|int $ip): string
+    {
+        $regions = $this->toRegions($ip);
+
+        if ($regions[1] === '中国') {
+            if (!in_array($regions[2] ?? null, ['香港特别行政区', '澳门特别行政区', '台湾省'])) {
+                return '中国大陆地区';
+            }
+            else {
+                return mb_substr($regions[2], 0, 2, 'utf-8');
+            }
+        }
+        else {
+            return $regions[1];
+        }
+    }
+
+    /**
+     * @noinspection PhpUnused
+     */
     public function isInChina(string|int $ip): bool
     {
         $regions = $this->toRegions($ip);
