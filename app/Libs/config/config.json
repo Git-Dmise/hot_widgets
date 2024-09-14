@@ -8,7 +8,7 @@
     "scoreInfo": {
         "n": 2,
         "scoreMaxCount": 5,
-        "isShowScore": false,
+        "isShowScore": true,
         "scoreMode": 2
     },
     "purchase_details": {
