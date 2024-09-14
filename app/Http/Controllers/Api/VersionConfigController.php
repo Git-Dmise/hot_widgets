@@ -33,9 +33,7 @@ class VersionConfigController extends Controller
 
     public function config(): JsonResponse
     {
-        $file_path = app_path('Libs/config/config.json');
-        $file = fopen($file_path, 'r');
-        $content = fread($file, filesize($file_path));
+        $content = file_get_contents(app_path('Libs/config/config.json'));
 
         $response_data = json_decode($content, true);
 
