@@ -1,0 +1,100 @@
+{
+    "otherInfo": {
+        "termsUrl": "https://docs.google.com/document/d/12ku3TSBUeP-HCm0BhCYsGFaNDwMXas7t7r6Er4_6MDk edit?usp=sharing",
+        "privacyUrl": "https://docs.google.com/document/d/11Q3866e9fMsa7LDRRvcbC9TmsOykv2_3BFl6fmRpC9A/edit?usp=sharing",
+        "resources": "http://mypaper-dev.lovepor.cn:40041/zip/islands animation.zip",
+        "tutorialUrl": "http://mypaper-dev.lovepor.cn:40042/course"
+    },
+    "scoreInfo": {
+        "n": 2,
+        "scoreMaxCount": 5,
+        "isShowScore": false,
+        "scoreMode": 2
+    },
+    "purchase_details": {
+        "appLaunchIsShow": false,
+        "forever_product_ids": [
+            "hotwidgets.forever"
+        ],
+        "subscrip_product_ids": [
+            "hotwidgets.year",
+            "hotwidgets.week"
+        ],
+        "products": [
+            {
+                "productId": "hotwidgets.forever",
+                "title": {
+                    "en-US": "permanent",
+                    "zh-Hans-CN": "永久",
+                    "zh-Hant-HK": "永久"
+                },
+                "type": "year",
+                "price": "$29.99",
+                "originalPrice": "$299.99",
+                "discountContent": {
+                    "en-US": "90% of the province",
+                    "zh-Hans-CN": "立省90%",
+                    "zh-Hant-HK": "立省90%"
+                }
+            },
+            {
+                "productId": "hotwidgets.year",
+                "title": {
+                    "en-US": "annually",
+                    "zh-Hans-CN": "每年",
+                    "zh-Hant-HK": "每年"
+                },
+                "type": "year",
+                "price": "$39.99"
+            },
+            {
+                "productId": "hotwidgets.week",
+                "title": {
+                    "en-US": "weekly",
+                    "zh-Hans-CN": "每周",
+                    "zh-Hant-HK": "每週"
+                },
+                "type": "week",
+                "price": "$4.99"
+            }
+        ],
+        "productsAppLaunch": [
+            {
+                "productId": "hotwidgets.forever",
+                "title": {
+                    "en-US": "permanent",
+                    "zh-Hans-CN": "永久",
+                    "zh-Hant-HK": "永久"
+                },
+                "type": "year",
+                "price": "$29.99",
+                "originalPrice": "$299.99",
+                "discountContent": {
+                    "en-US": "90% of the province",
+                    "zh-Hans-CN": "立省90%",
+                    "zh-Hant-HK": "立省90%"
+                }
+            },
+            {
+                "productId": "hotwidgets.year",
+                "title": {
+                    "en-US": "annually",
+                    "zh-Hans-CN": "每年",
+                    "zh-Hant-HK": "每年"
+                },
+                "type": "year",
+                "price": "$39.99"
+            },
+            {
+                "productId": "hotwidgets.week",
+                "title": {
+                    "en-US": "weekly",
+                    "zh-Hans-CN": "每周",
+                    "zh-Hant-HK": "每週"
+                },
+                "type": "week",
+                "price": "$4.99"
+            }
+        ]
+    }
+}
