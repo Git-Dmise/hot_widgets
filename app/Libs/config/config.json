@@ -1,7 +1,15 @@
 {
     "otherInfo": {
-        "termsUrl": "https://docs.google.com/document/d/12ku3TSBUeP-HCm0BhCYsGFaNDwMXas7t7r6Er4_6MDk edit?usp=sharing",
-        "privacyUrl": "https://docs.google.com/document/d/11Q3866e9fMsa7LDRRvcbC9TmsOykv2_3BFl6fmRpC9A/edit?usp=sharing",
+        "termsUrl": {
+            "en-US": "http://mypaper-dev.lovepor.cn:40041/page/terms/en.html",
+            "zh-Hans-CN": "http://mypaper-dev.lovepor.cn:40041/page/terms/zh.html",
+            "zh-Hans-HK": "http://mypaper-dev.lovepor.cn:40041/page/terms/zh.html"
+        },
+        "privacyUrl": {
+            "en-US": "http://mypaper-dev.lovepor.cn:40041/page/privacy/en.html",
+            "zh-Hans-CN": "http://mypaper-dev.lovepor.cn:40041/page/privacy/zh.html",
+            "zh-Hans-HK": "http://mypaper-dev.lovepor.cn:40041/page/privacy/zh.html"
+        },
         "resources": "http://mypaper-dev.lovepor.cn:40041/zip/islands/animation.zip",
         "tutorialUrl": "http://mypaper-dev.lovepor.cn:40042/course"
     },
