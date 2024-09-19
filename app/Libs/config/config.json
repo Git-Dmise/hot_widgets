@@ -15,9 +15,9 @@
     },
     "scoreInfo": {
         "n": 2,
-        "scoreMaxCount": 5,
+        "scoreMaxCount": 3,
         "isShowScore": true,
-        "scoreMode": 2
+        "scoreMode": 3
     },
     "purchase_details": {
         "appLaunchIsShow": false,
