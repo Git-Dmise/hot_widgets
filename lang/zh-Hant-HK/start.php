@@ -182,7 +182,7 @@ return [
         'app_name' => '騰訊會議',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/tencent_meeting.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wemeet',
         'launchType' => 'tencent_meeting',
     ],
     [
@@ -190,7 +190,7 @@ return [
         'app_name' => '王者榮耀',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/honor_of_kings.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'tencentlaunch1104466820',
         'launchType' => 'honor_of_kings',
     ],
     [
@@ -198,7 +198,7 @@ return [
         'app_name' => '閒魚',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/xian_yu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'fleamarket',
         'launchType' => 'xian_yu',
     ],
     [
@@ -206,7 +206,7 @@ return [
         'app_name' => '快手',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/kuaishou.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'kwai',
         'launchType' => 'kuaishou',
     ],
     [
@@ -238,7 +238,7 @@ return [
         'app_name' => '汽水音樂',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/soda_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'lunaDypay',
         'launchType' => 'soda_music',
     ],
     [
@@ -246,7 +246,7 @@ return [
         'app_name' => '百度',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/baidu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'baiduboxapp',
         'launchType' => 'baidu',
     ],
     [
@@ -254,7 +254,7 @@ return [
         'app_name' => '番茄暢聽',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/tomato_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'dragonDypay',
         'launchType' => 'tomato_music',
     ],
     [
@@ -270,7 +270,7 @@ return [
         'app_name' => '和平精英',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/peace_elite.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wxc4c0253df149f02d',
         'launchType' => 'peace_elite',
     ],
     [
@@ -278,7 +278,7 @@ return [
         'app_name' => '醒圖',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/xingtu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'lkfb1k4qnjl0wz2xaa',
         'launchType' => 'xingtu',
     ],
     [
@@ -286,7 +286,7 @@ return [
         'app_name' => '七貓小說',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/qimao_novels.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'tencent1106969405',
         'launchType' => 'qimao_novels',
     ],
     [
@@ -342,7 +342,7 @@ return [
         'app_name' => '開心消消樂',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/happy_match.png',
         'deep_link' => '',
-        'url_schemes' => 'HappyAnimal3',
+        'url_schemes' => 'tencent100718846',
         'launchType' => 'happy_match',
     ],
     [
@@ -350,7 +350,7 @@ return [
         'app_name' => '球球大作戰',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/battle_of_balls.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wx78d3d4b3ffce4211',
         'launchType' => 'battle_of_balls',
     ],
     [
@@ -358,7 +358,7 @@ return [
         'app_name' => '喜馬拉雅',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/himalaya.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'iting',
         'launchType' => 'himalaya',
     ],
     [
@@ -371,34 +371,10 @@ return [
     ],
     [
         'id' => 47,
-        'app_name' => '地下城與勇士',
-        'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/dungeon_Fighter.png',
-        'deep_link' => '',
-        'url_schemes' => '',
-        'launchType' => 'dungeon_Fighter',
-    ],
-    [
-        'id' => 48,
         'app_name' => '明日方舟',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/arknights.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wx0ae7fb63d830f7c1',
         'launchType' => 'arknights',
-    ],
-    [
-        'id' => 49,
-        'app_name' => '永劫無間',
-        'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/naraka_bladepoint.png',
-        'deep_link' => '',
-        'url_schemes' => '',
-        'launchType' => 'naraka_bladepoint',
-    ],
-    [
-        'id' => 50,
-        'app_name' => '英雄聯盟手遊',
-        'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/league_of_legends_mobile.png',
-        'deep_link' => '',
-        'url_schemes' => '',
-        'launchType' => 'league_of_legends_mobile',
     ],
 ];

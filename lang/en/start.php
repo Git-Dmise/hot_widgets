@@ -182,7 +182,7 @@ return [
         'app_name' => 'Tencent Meeting',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/tencent_meeting.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wemeet',
         'launchType' => 'tencent_meeting',
     ],
     [
@@ -190,7 +190,7 @@ return [
         'app_name' => 'Honor of Kings',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/honor_of_kings.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'tencentlaunch1104466820',
         'launchType' => 'honor_of_kings',
     ],
     [
@@ -198,7 +198,7 @@ return [
         'app_name' => 'Xianyu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/xian_yu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'fleamarket',
         'launchType' => 'xian_yu',
     ],
     [
@@ -206,7 +206,7 @@ return [
         'app_name' => 'Kuaishou',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/kuaishou.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'kwai',
         'launchType' => 'kuaishou',
     ],
     [
@@ -238,7 +238,7 @@ return [
         'app_name' => 'Soda Music',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/soda_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'lunaDypay',
         'launchType' => 'soda_music',
     ],
     [
@@ -246,7 +246,7 @@ return [
         'app_name' => 'Baidu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/baidu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'baiduboxapp',
         'launchType' => 'baidu',
     ],
     [
@@ -254,7 +254,7 @@ return [
         'app_name' => 'Tomato Music',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/tomato_music.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'dragonDypay',
         'launchType' => 'tomato_music',
     ],
     [
@@ -270,7 +270,7 @@ return [
         'app_name' => 'Peace Elite',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/peace_elite.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wxc4c0253df149f02d',
         'launchType' => 'peace_elite',
     ],
     [
@@ -278,7 +278,7 @@ return [
         'app_name' => 'Xingtu',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/xingtu.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'lkfb1k4qnjl0wz2xaa',
         'launchType' => 'xingtu',
     ],
     [
@@ -342,7 +342,7 @@ return [
         'app_name' => 'Happy Match',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/happy_match.png',
         'deep_link' => '',
-        'url_schemes' => 'HappyAnimal3',
+        'url_schemes' => 'tencent100718846',
         'launchType' => 'happy_match',
     ],
     [
@@ -350,7 +350,7 @@ return [
         'app_name' => 'Battle of Balls',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/battle_of_balls.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wx78d3d4b3ffce4211',
         'launchType' => 'battle_of_balls',
     ],
     [
@@ -358,7 +358,7 @@ return [
         'app_name' => 'Himalaya',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/himalaya.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'iting',
         'launchType' => 'himalaya',
     ],
     [
@@ -371,34 +371,10 @@ return [
     ],
     [
         'id' => 47,
-        'app_name' => 'Dungeon & Fighter',
-        'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/dungeon_Fighter.png',
-        'deep_link' => '',
-        'url_schemes' => '',
-        'launchType' => 'dungeon_Fighter',
-    ],
-    [
-        'id' => 48,
         'app_name' => 'Arknights',
         'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/arknights.png',
         'deep_link' => '',
-        'url_schemes' => '',
+        'url_schemes' => 'wx0ae7fb63d830f7c1',
         'launchType' => 'arknights',
-    ],
-    [
-        'id' => 49,
-        'app_name' => 'Naraka: Bladepoint',
-        'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/naraka_bladepoint.png',
-        'deep_link' => '',
-        'url_schemes' => '',
-        'launchType' => 'naraka_bladepoint',
-    ],
-    [
-        'id' => 50,
-        'app_name' => 'League of Legends Mobile',
-        'app_icon' => 'http://mypaper-dev.lovepor.cn:40041/images/islands/start/league_of_legends_mobile.png',
-        'deep_link' => '',
-        'url_schemes' => '',
-        'launchType' => 'league_of_legends_mobile',
     ],
 ];
