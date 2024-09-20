@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 | be assigned to the "api" middleware group. Make something great!
 |
 */
-Route::get('init', [ServerController::class, 'index']);
+Route::get('init', [ServerController::class, 'index']); //231
 Route::get('version/force-update', [VersionConfigController::class, 'force_update']); // 强制更新检测
 
 Route::middleware(['api.sign.check'])->group(function () {
