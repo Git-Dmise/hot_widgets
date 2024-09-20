@@ -17,7 +17,7 @@
         "n": 2,
         "scoreMaxCount": 3,
         "isShowScore": true,
-        "scoreMode": 3
+        "scoreMode": 1
     },
     "purchase_details": {
         "appLaunchIsShow": false,
