@@ -19,7 +19,6 @@ class SetLocale
 
         if (str_starts_with($locale, 'zh-Hans')) $locale = 'zh-Hans-CN';
         elseif (str_starts_with($locale, 'zh-Hant')) $locale = 'zh-Hant-HK';
-        elseif (str_starts_with($locale, 'es')) $locale = 'es';
         else $locale = 'en-US';
 
         App::setLocale($locale);
