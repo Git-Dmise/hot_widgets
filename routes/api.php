@@ -18,7 +18,7 @@ Route::get('init', [ServerController::class, 'index']); // 获取时间戳
 Route::get('version/force-update', [VersionConfigController::class, 'force_update']); // 强制更新检测
 
 Route::middleware(['api.sign.check'])->group(function () {
-    Route::get('version/config', [VersionConfigController::class, 'config']); // web端支付配置
+    Route::get('version/config', [VersionConfigController::class, 'config']); // 获取版本配置
 
     Route::prefix('animation')->group(function () {
         Route::get('index', [AnimationController::class, 'index']); // 动画岛列表
