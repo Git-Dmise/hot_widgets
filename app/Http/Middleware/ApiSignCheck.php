@@ -27,24 +27,23 @@ class ApiSignCheck
     {
         // 签名
         if (!$client_sign = $request->header('X-Client-Sign')) {
-            // 使用[]传参
-            throw new ApiException(1, 'Too many request attempts. Please try again in -1 seconds.');
+            throw new SignCheckException(0, 'Too many request attempts. Please try again in -1 seconds.');
         }
 
         // 请求时间戳
         if (!$client_timestamp = $request->header('X-Client-Timestamp') or !is_numeric($client_timestamp)) {
-            throw new ApiException(2, 'Too many request attempts. Please try again in -1 seconds.');
+            throw new SignCheckException(0, 'Too many request attempts. Please try again in -1 seconds.');
         }
 
         // 请求UUID
         if (!$client_request_uuid = $request->header('X-Client-Request-Uuid')) {
-            throw new ApiException(3, 'Too many request attempts. Please try again in -1 seconds.');
+            throw new SignCheckException(0, 'Too many request attempts. Please try again in -1 seconds.');
         }
 
         $client_time = (int)($client_timestamp / 1000);
 
         if ($client_time < (time() - 60) or $client_time > (time() + 60)) {
-            throw new ApiException(0, __('auth.throttle', ['seconds' => '-1']));
+            throw new SignCheckException(0, __('auth.throttle', ['seconds' => '-1']));
         }
 
         // 请求系统
@@ -62,7 +61,7 @@ class ApiSignCheck
             . "\n";
 
         if (md5($sign_data) !== $client_sign) {
-            throw new SignCheckException(0, $sign_data);
+            throw new SignCheckException(0, 'Too many request attempts. Please try again in -1 seconds.');
         }
     }
 }
