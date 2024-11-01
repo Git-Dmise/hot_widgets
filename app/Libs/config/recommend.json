@@ -1,0 +1,141 @@
+[
+    {
+        "sort_id": 1,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "sticker",
+        "widget_folders": 1,
+        "title": {
+            "zh-Hans-CN": "贴纸小动画",
+            "zh-Hant-HK": "貼圖小動畫",
+            "en-US": "Sticker Animation"
+        }
+    },
+    {
+        "sort_id": 2,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "sticker",
+        "widget_folders": 2,
+        "title": {
+            "zh-Hans-CN": "贴纸小动画",
+            "zh-Hant-HK": "貼圖小動畫",
+            "en-US": "Sticker Animation"
+        }
+    },
+    {
+        "sort_id": 3,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "sticker",
+        "widget_folders": 3,
+        "title": {
+            "zh-Hans-CN": "贴纸小动画",
+            "zh-Hant-HK": "貼圖小動畫",
+            "en-US": "Sticker Animation"
+        }
+    },
+    {
+        "sort_id": 4,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "sticker",
+        "widget_folders": 4,
+        "title": {
+            "zh-Hans-CN": "贴纸小动画",
+            "zh-Hant-HK": "貼圖小動畫",
+            "en-US": "Sticker Animation"
+        }
+    },
+    {
+        "sort_id": 5,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "sticker",
+        "widget_folders": 5,
+        "title": {
+            "zh-Hans-CN": "贴纸小动画",
+            "zh-Hant-HK": "貼圖小動畫",
+            "en-US": "Sticker Animation"
+        }
+    },
+    {
+        "sort_id": 6,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "sticker",
+        "widget_folders": 6,
+        "title": {
+            "zh-Hans-CN": "贴纸小动画",
+            "zh-Hant-HK": "貼圖小動畫",
+            "en-US": "Sticker Animation"
+        }
+    },
+    {
+        "sort_id": 7,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "photo_frame",
+        "widget_folders": 1,
+        "title": {
+            "zh-Hans-CN": "照片框",
+            "zh-Hant-HK": "照片框",
+            "en-US": "Photo Frame"
+        }
+    },
+    {
+        "sort_id": 8,
+        "type": "widget",
+        "widget_style": "medium",
+        "widget_folders": "photo_wall",
+        "title": {
+            "zh-Hans-CN": "照片墙",
+            "zh-Hant-HK": "照片牆",
+            "en-US": "Photo Wall"
+        }
+    },
+    {
+        "sort_id": 9,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_folders": "anniversary",
+        "title": {
+            "zh-Hans-CN": "纪念日",
+            "zh-Hant-HK": "紀念日",
+            "en-US": "Anniversary"
+        }
+    },
+    {
+        "sort_id": 10,
+        "type": "widget",
+        "widget_style": "medium",
+        "widget_folders": "anniversary",
+        "title": {
+            "zh-Hans-CN": "纪念日",
+            "zh-Hant-HK": "紀念日",
+            "en-US": "Anniversary"
+        }
+    },
+    {
+        "sort_id": 11,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_folders": "power",
+        "title": {
+            "zh-Hans-CN": "电量",
+            "zh-Hant-HK": "電量",
+            "en-US": "Power"
+        }
+    },
+    {
+        "sort_id": 12,
+        "type": "widget",
+        "widget_style": "medium",
+        "widget_folders": "power",
+        "title": {
+            "zh-Hans-CN": "电量",
+            "zh-Hant-HK": "電量",
+            "en-US": "Power"
+        }
+    }
+]

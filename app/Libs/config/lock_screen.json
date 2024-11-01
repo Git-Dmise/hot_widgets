@@ -1,0 +1,204 @@
+[
+    {
+        "sort_id": 1,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 1,
+        "title": {
+            "zh-cn": "动物",
+            "zh-tw": "動物",
+            "en": "Animal"
+        }
+    },
+    {
+        "sort_id": 2,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 2,
+        "title": {
+            "zh-cn": "动物",
+            "zh-tw": "動物",
+            "en": "Animal"
+        }
+    },
+    {
+        "sort_id": 3,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 3,
+        "title": {
+            "zh-cn": "动物",
+            "zh-tw": "動物",
+            "en": "Animal"
+        }
+    },
+    {
+        "sort_id": 4,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 4,
+        "title": {
+            "zh-cn": "动物",
+            "zh-tw": "動物",
+            "en": "Animal"
+        }
+    },
+    {
+        "sort_id": 5,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 5,
+        "title": {
+            "zh-cn": "发财",
+            "zh-tw": "發財",
+            "en": "Get rich"
+        }
+    },
+    {
+        "sort_id": 6,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 6,
+        "title": {
+            "zh-cn": "发财",
+            "zh-tw": "發財",
+            "en": "Get rich"
+        }
+    },
+    {
+        "sort_id": 7,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 7,
+        "title": {
+            "zh-cn": "发财",
+            "zh-tw": "發財",
+            "en": "Get rich"
+        }
+    },
+    {
+        "sort_id": 8,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 8,
+        "title": {
+            "zh-cn": "发财",
+            "zh-tw": "發財",
+            "en": "Get rich"
+        }
+    },
+    {
+        "sort_id": 9,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_folders": "curious_cat",
+        "title": {
+            "zh-cn": "好奇猫咪",
+            "zh-tw": "好奇貓咪",
+            "en": "Curious Cat"
+        }
+    },
+    {
+        "sort_id": 10,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 10,
+        "title": {
+            "zh-cn": "猫头",
+            "zh-tw": "貓頭",
+            "en": "Cat head"
+        }
+    },
+    {
+        "sort_id": 11,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 11,
+        "title": {
+            "zh-cn": "狗头",
+            "zh-tw": "狗頭",
+            "en": "Dog head"
+        }
+    },
+    {
+        "sort_id": 12,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_type": "taste",
+        "widget_folders": 1,
+        "title": {
+            "zh-cn": "千杯不醉",
+            "zh-tw": "千杯不醉",
+            "en": "Not drunk"
+        }
+    },
+    {
+        "sort_id": 13,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_type": "taste",
+        "widget_folders": 2,
+        "title": {
+            "zh-cn": "日进斗金",
+            "zh-tw": "日進鬥金",
+            "en": "Money Comes"
+        }
+    },
+    {
+        "sort_id": 14,
+        "type": "lock_screen",
+        "widget_style": "bar",
+        "widget_folders": "",
+        "title": {
+            "zh-cn": "颜文字",
+            "zh-tw": "顏文字",
+            "en": "Emoticons"
+        }
+    },
+    {
+        "sort_id": 15,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_type": "taste",
+        "widget_folders": 3,
+        "title": {
+            "zh-cn": "风景",
+            "zh-tw": "風景",
+            "en": "Landscape"
+        }
+    },
+    {
+        "sort_id": 16,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 11,
+        "title": {
+            "zh-cn": "太阳",
+            "zh-tw": "太陽",
+            "en": "Sun"
+        }
+    },
+    {
+        "sort_id": 17,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "widget_folders": 12,
+        "title": {
+            "zh-cn": "花花",
+            "zh-tw": "花花",
+            "en": "Flower"
+        }
+    }
+]
