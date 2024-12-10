@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "sort_id": 7,
+        "is_vip": false,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "photo_frame",
+        "widget_folders": 1,
+        "title": {
+            "zh-Hans-CN": "照片框",
+            "zh-Hant-HK": "照片框",
+            "en-US": "Photo Frame"
+        }
+    },
+    {
+        "id": "2",
+        "sort_id": 7,
+        "is_vip": false,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "photo_frame",
+        "widget_folders": 2,
+        "title": {
+            "zh-Hans-CN": "照片框",
+            "zh-Hant-HK": "照片框",
+            "en-US": "Photo Frame"
+        }
+    },
+    {
+        "id": "3",
+        "sort_id": 7,
+        "is_vip": true,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "photo_frame",
+        "widget_folders": 3,
+        "title": {
+            "zh-Hans-CN": "照片框",
+            "zh-Hant-HK": "照片框",
+            "en-US": "Photo Frame"
+        }
+    },
+    {
+        "id": "4",
+        "sort_id": 7,
+        "is_vip": true,
+        "type": "widget",
+        "widget_style": "small",
+        "widget_type": "photo_frame",
+        "widget_folders": 4,
+        "title": {
+            "zh-Hans-CN": "照片框",
+            "zh-Hant-HK": "照片框",
+            "en-US": "Photo Frame"
+        }
+    }
+]

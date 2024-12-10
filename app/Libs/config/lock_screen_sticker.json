@@ -1,0 +1,214 @@
+[
+    {
+        "id": "1",
+        "sort_id": 1,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 1,
+        "title": {
+            "zh-Hans-CN": "动物",
+            "zh-Hant-HK": "動物",
+            "en-US": "Animal"
+        }
+    },
+    {
+        "id": "2",
+        "sort_id": 2,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 2,
+        "title": {
+            "zh-Hans-CN": "动物",
+            "zh-Hant-HK": "動物",
+            "en-US": "Animal"
+        }
+    },
+    {
+        "id": "3",
+        "sort_id": 3,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 3,
+        "title": {
+            "zh-Hans-CN": "动物",
+            "zh-Hant-HK": "動物",
+            "en-US": "Animal"
+        }
+    },
+    {
+        "id": "4",
+        "sort_id": 4,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 4,
+        "title": {
+            "zh-Hans-CN": "动物",
+            "zh-Hant-HK": "動物",
+            "en-US": "Animal"
+        }
+    },
+    {
+        "id": "5",
+        "sort_id": 5,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 5,
+        "title": {
+            "zh-Hans-CN": "发财",
+            "zh-Hant-HK": "發財",
+            "en-US": "Get rich"
+        }
+    },
+    {
+        "id": "6",
+        "sort_id": 6,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 6,
+        "title": {
+            "zh-Hans-CN": "发财",
+            "zh-Hant-HK": "發財",
+            "en-US": "Get rich"
+        }
+    },
+    {
+        "id": "7",
+        "sort_id": 7,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 7,
+        "title": {
+            "zh-Hans-CN": "发财",
+            "zh-Hant-HK": "發財",
+            "en-US": "Get rich"
+        }
+    },
+    {
+        "id": "8",
+        "sort_id": 8,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 8,
+        "title": {
+            "zh-Hans-CN": "发财",
+            "zh-Hant-HK": "發財",
+            "en-US": "Get rich"
+        }
+    },
+    {
+        "id": "9",
+        "sort_id": 10,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 9,
+        "title": {
+            "zh-Hans-CN": "猫头",
+            "zh-Hant-HK": "貓頭",
+            "en-US": "Cat head"
+        }
+    },
+    {
+        "id": "10",
+        "sort_id": 11,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 10,
+        "title": {
+            "zh-Hans-CN": "狗头",
+            "zh-Hant-HK": "狗頭",
+            "en-US": "Dog head"
+        }
+    },
+    {
+        "id": "11",
+        "sort_id": 12,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_type": "taste",
+        "style_type": "sticker",
+        "widget_folders": 1,
+        "text": "",
+        "title": {
+            "zh-Hans-CN": "千杯不醉",
+            "zh-Hant-HK": "千杯不醉",
+            "en-US": "Not drunk"
+        }
+    },
+    {
+        "id": "12",
+        "sort_id": 13,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_type": "taste",
+        "style_type": "sticker",
+        "widget_folders": 2,
+        "text": "",
+        "title": {
+            "zh-Hans-CN": "日进斗金",
+            "zh-Hant-HK": "日進鬥金",
+            "en-US": "Money Comes"
+        }
+    },
+    {
+        "id": "13",
+        "sort_id": 15,
+        "type": "lock_screen",
+        "widget_style": "rectangle",
+        "widget_type": "taste",
+        "style_type": "sticker",
+        "widget_folders": 3,
+        "title": {
+            "zh-Hans-CN": "风景",
+            "zh-Hant-HK": "風景",
+            "en-US": "Landscape"
+        }
+    },
+    {
+        "id": "14",
+        "sort_id": 16,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 11,
+        "title": {
+            "zh-Hans-CN": "太阳",
+            "zh-Hant-HK": "太陽",
+            "en-US": "Sun"
+        }
+    },
+    {
+        "id": "15",
+        "sort_id": 17,
+        "type": "lock_screen",
+        "widget_style": "round",
+        "widget_type": "simple",
+        "style_type": "sticker",
+        "widget_folders": 12,
+        "title": {
+            "zh-Hans-CN": "花花",
+            "zh-Hant-HK": "花花",
+            "en-US": "Flower"
+        }
+    }
+]

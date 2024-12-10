@@ -14,7 +14,10 @@ class AnimationController extends Controller
             $large = [];
 
             for ($j = 1; $j <= 10; $j++) {
-                $large[] = 'animation/' . $i . '/large/' . $j . '.png';
+                if ($j < 10) {
+                    $j = '0' . $j;
+                }
+                $large[] = 'resource/dynamic_island/smart/' . $i . '/reality/' . $j . '.png';
             }
 
             $response_data[] = [
@@ -23,9 +26,9 @@ class AnimationController extends Controller
                 'large_duration' => $i === 9 ? 2 : 1,
                 'large' => $large,
                 'left_duration' => 1,
-                'left' => ['animation/' . $i . '/left/1.png'],
+                'left' => ['resource/dynamic_island/smart/' . $i . '/left/1.png'],
                 'right_duration' => 1,
-                'right' => ['animation/' . $i . '/right/1.png'],
+                'right' => ['resource/dynamic_island/smart/' . $i . '/right/1.png'],
             ];
         }
 
