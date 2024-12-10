@@ -16,7 +16,7 @@
     {
         "id": "2",
         "sort_id": 7,
-        "is_vip": false,
+        "is_vip": true,
         "type": "widget",
         "widget_style": "small",
         "widget_type": "photo_frame",
