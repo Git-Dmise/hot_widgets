@@ -8,6 +8,8 @@ class AppConfigController extends Controller
 {
     public function store(): Response
     {
+        $content = file_get_contents(app_path('Libs/config/version/config.json'));
+        dd($content);
         $data = $this->makeData();
         $config = json_encode($data['config'], JSON_PRETTY_PRINT);
 
