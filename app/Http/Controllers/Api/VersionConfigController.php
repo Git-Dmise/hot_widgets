@@ -33,7 +33,7 @@ class VersionConfigController extends Controller
 
     public function config(): JsonResponse
     {
-        $content = file_get_contents(app_path('Libs/config/version/config.json'));
+        $content = file_get_contents(app_path('Libs/config/config.json'));
 
         $response_data = json_decode($content, true);
 
