@@ -18,4 +18,4 @@ yarn-error.log
 /.fleet
 /.idea
 /.vscode
-/app/Libs/config/config.json
+/app/Libs/config/version/config.json
