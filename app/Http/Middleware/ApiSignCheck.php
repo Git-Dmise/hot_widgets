@@ -43,7 +43,7 @@ class ApiSignCheck
         $client_time = (int)($client_timestamp / 1000);
 
         if ($client_time < (time() - 60) or $client_time > (time() + 60)) {
-            throw new SignCheckException(0, __('auth.throttle', ['seconds' => '-1']));
+            throw new SignCheckException(0, 'Too many request attempts. Please try again in :seconds seconds.');
         }
 
         // 请求系统
